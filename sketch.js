@@ -60,7 +60,7 @@ function gameOver(){
     return true;
 }
 function mousePressed(){
-    if(gameOver()==true && snake.dead()==true){
+    if(snake.dead()==true && gameOver()==true ){
          loop();
         location.reload();
        
